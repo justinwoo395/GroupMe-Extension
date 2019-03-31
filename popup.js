@@ -65,17 +65,6 @@ document.addEventListener('DOMContentLoaded', function () {
 });
 
 
-/*
-
-  toggle1.onclick = function(element) {
-    
-    let color = element.target.value;
-    chrome.tabs.query({active: true, currentWindow: true}, function(tabs) {
-      chrome.tabs.executeScript(
-          tabs[0].id,
-          {code: 'document.body.style.backgroundColor = "' + color + '";'});
-      chrome.tabs.insertCSS(
-          tabs[0].id,
           {code: "* { background-color: black !important; color: white !important;}"}
       );
       chrome.tabs.insertCSS(
