@@ -13,13 +13,9 @@ Chrome Extension that gives GroupMe users some neat extra features and enhanceme
 
 ### Installing
 
-**Chrome Web Store Installation**
-
-Go to the Web Store page for the extension ([Click Here!](https://chrome.google.com/webstore/)) and then click "Add to Chrome" button, then click "OK" on the confirmation pop-up.
-
 **Manual Installation**
 
-Clone or download this repository and follow the guide here to install: [Load the extension](https://developer.chrome.com/extensions/getstarted#unpacked)
+This is currently an unpublished Chrome Extension. Clone or download this repository and follow the guide here to install: [Load the extension](https://developer.chrome.com/extensions/getstarted#unpacked)
 
 
 ## Authors
