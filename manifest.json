@@ -1,7 +1,7 @@
   {
-    "name": "Extension Test",
+    "name": "GroupMe++ and AdBlock",
     "version": "1.0",
-    "description": "Test Chrome extensions",
+    "description": "Dark mode and image blurring for GroupMe, universal adblock",
     "permissions": ["webRequest", "webRequestBlocking", "http://*/", "https://*/", "activeTab", "declarativeContent", "storage"],
     "background": {
       "scripts": ["jquery.js", "blocked_domains.js", "background.js"]
