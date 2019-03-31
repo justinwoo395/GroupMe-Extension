@@ -12,7 +12,7 @@ Go to the Web Store page for the extension ([Click Here!](https://chrome.google.
 
 **Manual Installation**
 
-Clone or Download This Repository and follow the guide here to install: [Load the extension](https://developer.chrome.com/extensions/getstarted#unpacked)
+Clone or download this repository and follow the guide here to install: [Load the extension](https://developer.chrome.com/extensions/getstarted#unpacked)
 
 
 ## Authors
