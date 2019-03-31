@@ -1,7 +1,14 @@
 # GroupMe++ Chrome Extension
 
-Chrome Extension that gives GroupMe users the ability to blur media from unwanted eyes until hovered over with the mouse.
-A GroupMe Wide DarkMode Theme is also included as well as a Universal AdBlocker.
+### Description
+
+Chrome Extension that gives GroupMe users some neat extra features and enhancements.
+
+### Features
+
+- Ability to blur media from unwanted eyes until hovered over with the mouse.
+- A GroupMe Wide Dark Theme.
+- A Universal AdBlocker cause why not.
 
 
 ### Installing
