@@ -7,3 +7,11 @@ div.image-wrapper img {
   filter: blur(8px) ;
   -webkit-filter: blur(8px) ;
 }
+div.video video:hover {
+  filter: blur(0px) ;
+  -webkit-filter: blur(0px) ;
+}
+div.video video {
+  filter: blur(8px) ;
+  -webkit-filter: blur(8px) ;
+}
