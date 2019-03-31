@@ -2,10 +2,9 @@
     "name": "Extension Test",
     "version": "1.0",
     "description": "Test Chrome extensions",
-    "permissions": ["activeTab", "declarativeContent", "storage"],
+    "permissions": ["webRequest", "webRequestBlocking", "http://*/", "https://*/", "activeTab", "declarativeContent", "storage"],
     "background": {
-      "scripts": ["jquery.js", "background.js"],
-      "persistent": true
+      "scripts": ["jquery.js", "blocked_domains.js", "background.js"]
     },
     "content_scripts": [
       {
