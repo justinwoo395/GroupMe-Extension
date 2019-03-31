@@ -1,13 +1,3 @@
-/*chrome.declarativeContent.onPageChanged.removeRules(undefined, function() {
-  chrome.declarativeContent.onPageChanged.addRules([{
-    conditions: [new chrome.declarativeContent.PageStateMatcher({
-      pageUrl: {hostEquals: 'https://*.groupme.com/*'},
-    })
-    ],
-        actions: [new chrome.declarativeContent.ShowPageAction()]
-    }]);
-});*/
- 
 chrome.runtime.onMessage.addListener(
   function(message, sender, response) {
     console.log('received');
