@@ -10,6 +10,7 @@
     "content_scripts": [
       {
         "matches": ["https://*.groupme.com/*"],
+        "css": ["content.css"],
         "js": ["jquery.js", "background.js"],
         "run_at": "document_end"
       }
