@@ -12,7 +12,6 @@
       {
         "matches": ["https://*.groupme.com/*"], 
         "js": ["jquery.js", "background.js", "blur.js"],
-        "css": ["blur.css"],
         "run_at": "document_end"
       }
     ],

@@ -51,18 +51,16 @@ document.addEventListener('DOMContentLoaded', function () {
 
   
     //handles blur toggle switch updates
-  var blue_toggle = document.getElementById("blur_toggle");
+  var blur_toggle = document.getElementById("blur_toggle");
   blur_toggle.addEventListener('click', function () {
     if (blur_toggle.checked) {
       chrome.storage.sync.set({ blur: true });
       console.log("checked");
-
-    }
-    else {
+    } else {
       chrome.storage.sync.set({ blur: false });
       console.log("unchecked");
     }
-    
+    chrome.runtime.sendMessage('groupme loaded');
   });
 });
 
