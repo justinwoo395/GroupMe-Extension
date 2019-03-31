@@ -2,25 +2,36 @@
 <html>
 	<head>
 		
-			<link rel="stylesheet" href="toggle.css">
+		<link rel="stylesheet" href="toggle.css"> 
+		
+		<script src="popup.js"></script>
+		<style>   
+			 button {
+				height: 30px;
+				width: 30px;
+				outline: none;
+			  } 
+			  
+			 </style>
 		
 	</head>	
-	<body>
-		<script src="popup.js"></script>
+	
 
+	<body>
 	
 	<h4> dark mode </h4>
 	<div class="onoffswitch">
-		<input type="checkbox" name="onoffswitch" class="onoffswitch-checkbox" id="myonoffswitch1">
-		<label class="onoffswitch-label" for="myonoffswitch1"></label>
+		<input type="checkbox" name="onoffswitch" class="onoffswitch-checkbox" id="darkmode_toggle">
+		<label class="onoffswitch-label" for="darkmode_toggle"></label>
+		<script type="text/javascript" src="popup.js"></script>
 	</div>
 
 	<br style="line-height:10px;">
 
 	<h4> enable blur </h4>
 	<div class="onoffswitch">
-		<input type="checkbox" name="onoffswitch" class="onoffswitch-checkbox" id="myonoffswitch2">
-		<label class="onoffswitch-label" for="myonoffswitch2"></label>
+		<input type="checkbox" name="onoffswitch" class="onoffswitch-checkbox" id="blur_toggle">
+		<label class="onoffswitch-label" for="blur_toggle"></label>
 	</div>
 	
 
