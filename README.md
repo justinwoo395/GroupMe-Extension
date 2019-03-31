@@ -24,10 +24,10 @@ Clone or Download This Repository and follow the guide here to install: [Load th
 * **Neil Prajapati** - [DumboOctopus](https://github.com/DumboOctopus)
 
 
-See also the list of [contributors](https://github.com/your/project/contributors) who participated in this project.
+See also the list of [contributors](https://github.com/justinwoo395/GroupMe-Extension/graphs/contributors) who participated in this project.
 
 
 ## Acknowledgments
 
-* Created for [LA Hacks 2019](lahacks.com)
+* Created for [LA Hacks 2019](https://lahacks.com/)
 
