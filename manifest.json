@@ -2,16 +2,16 @@
     "name": "Extension Test",
     "version": "1.0",
     "description": "Test Chrome extensions",
-    "permissions": ["activeTab", "declarativeContent", "storage"],
+    "permissions": ["activeTab", "declarativeContent", "storage", "tabs"],
     "background": {
-      "scripts": ["jquery.js", "background.js"],
+      "scripts": ["jquery.js", "background.js", "blur.js"],
       "persistent": true
     },
     "content_scripts": [
       {
-        "matches": ["https://*.groupme.com/*"],
-        "css": ["content.css"],
-        "js": ["jquery.js", "background.js"],
+        "matches": ["https://*.groupme.com/*"], 
+        "js": ["jquery.js", "background.js", "blur.js"],
+        "css": ["blur.css"],
         "run_at": "document_end"
       }
     ],
