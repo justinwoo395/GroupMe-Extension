@@ -23,7 +23,7 @@ Chrome Extension that gives GroupMe users some neat extra features and enhanceme
 
 #### Dark Mode Animation
 
-![dark mode animation](screenshots/dark-mode-animation.gif)
+<img src="https://github.com/andrewschechter/GroupMe-Enhancer/blob/master/screenshots/dark-mode-animation.gif">
 
 ### Installing
 
