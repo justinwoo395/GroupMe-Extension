@@ -10,6 +10,20 @@ Chrome Extension that gives GroupMe users some neat extra features and enhanceme
 - A GroupMe Wide Dark Theme.
 - A Universal AdBlocker cause why not.
 
+### Demo
+
+#### Chrome Extension Popup
+
+<img src="https://github.com/andrewschechter/GroupMe-Enhancer/blob/master/screenshots/popup.jpg" width="650">
+
+#### Blur Animation
+
+<img src="https://github.com/andrewschechter/GroupMe-Enhancer/blob/master/screenshots/blur-animation.gif" width="650">
+
+
+#### Dark Mode Animation
+
+![dark mode animation](screenshots/dark-mode-animation.gif)
 
 ### Installing
 
