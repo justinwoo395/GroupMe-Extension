@@ -1,4 +1,4 @@
-# GroupMe++ Chrome Extension
+# GroupMe Chrome Extension
 
 ### Description
 
